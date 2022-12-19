@@ -1,0 +1,80 @@
+.link-external-assets-files {
+  .actions {
+    padding: 15px 0 0;
+    border-top: 1px solid #000;
+  }
+
+  .border-top {
+    border-top: 1px solid #000000;
+  }
+
+  .add-link-btn {
+    margin-left: -5px;
+    padding: 5px;
+  }
+
+  .link-file-url-input {
+    width: 100% !important;
+    height: 40px !important;
+  }
+}
+
+.upload-files-modal-container {
+  .delphi-card.delphi-card-bordered {
+    background-color: transparent !important;
+  }
+  .delphi-card-bordered {
+    border: 1px solid #424b57 !important;
+  }
+  .delphi-card-body {
+    padding: 10px;
+  }
+  .upload-container {
+    padding: 15px 0;
+    border-bottom: 0;
+    border-top: 1px solid #000000;
+    .dragger-button {
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+    .delphi-upload.delphi-upload-drag {
+      border: 0px;
+      background: linear-gradient(
+          to right,
+          #424b57 50%,
+          rgba(255, 255, 255, 0) 0%
+        ),
+        linear-gradient(#424b57 50%, rgba(255, 255, 255, 0) 0%),
+        linear-gradient(to right, #424b57 50%, rgba(255, 255, 255, 0) 0%),
+        linear-gradient(#424b57 50%, rgba(255, 255, 255, 0) 0%);
+      background-position: top, right, bottom, left;
+      background-repeat: repeat-x, repeat-y;
+      background-size: 10px 1px, 1px 10px;
+    }
+  }
+
+  .uploadfile {
+    .delphi-progress-bg {
+      background-color: #4c91c9;
+    }
+    .delphi-progress-inner {
+      border-radius: 0;
+      background: transparent;
+    }
+    .delphi-progress-bg {
+      height: 70px !important;
+      border-radius: 0;
+    }
+    .upload-actions {
+      border: none;
+    }
+  }
+  .delphi-card-bordered {
+    border: 1px solid #424b57 !important;
+  }
+
+  .upload-actions {
+    padding: 15px 0 0;
+    border-top: 1px solid #000;
+  }
+}
